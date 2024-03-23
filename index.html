@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD</title>
+  <link rel="stylesheet" href="./main.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="form__create hidden">
+      <form>
+        <input type="text" name="name__create" placeholder="Enter Name"><br>
+        <input type="email" name="email__create" placeholder="Enter Email">
+        <button class="submit" type="submit">Create</button>
+      </form>
+    </div> 
+    <div class="form__update hidden">
+      <form>
+        <input type="text" name="name__update" placeholder="Enter Name"><br>
+        <input type="email" name="email__update" placeholder="Enter Email">
+        <button class="submit" type="submit">Update</button>
+      </form>
+    </div>
+    <button class="submit add">Add +</button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!-- <tr>
+          <td>Ibrohim</td>
+          <td>ahmadjonovibrohim062@gmail.com</td>
+          <td>
+            <button>Update</button>
+            <button>Delete</button>
+          </td>
+        </tr> -->
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
